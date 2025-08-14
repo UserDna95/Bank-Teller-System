@@ -85,9 +85,7 @@ python -m unittest test_bank_system.py
 bank-teller-system/
 │
 ├── README.md                  # Project overview, setup instructions, usage
-├── LICENSE                    # Open-source license (e.g., MIT)
-├── requirements.txt           # List of dependencies (if any)
-│
+
 ├── bank_system.py             # Main application logic
 ├── models/
 │   ├── transaction.py         # Transaction class and TransactionType enum
