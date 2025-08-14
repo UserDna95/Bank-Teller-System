@@ -84,23 +84,26 @@ python -m unittest test_bank_system.py
 ```
 bank-teller-system/
 │
-├── README.md
-├── LICENSE
-├── requirements.txt
+├── README.md                  # Project overview, setup instructions, usage
+├── LICENSE                    # Open-source license (e.g., MIT)
+├── requirements.txt           # List of dependencies (if any)
 │
-├── bank_system.py
+├── bank_system.py             # Main application logic
 ├── models/
-│   ├── transaction.py
-│   └── bank_account.py
-├── teller/
-│   └── teller_interface.py
+│   ├── transaction.py         # Transaction class and TransactionType enum
+│   └── bank_account.py        # BankAccount class
+│
 ├── utils/
-│   ├── helpers.py
-│   └── persistence.py
+│   ├── helpers.py             # is_valid_account_number, get_valid_amount
+│   └── persistence.py         # save_accounts, load_accounts
+│
 ├── tests/
-│   └── test_bank_system.py
+│   ├── test_transaction.py    # Unit tests for Transaction
+│   ├── test_bank_account.py   # Unit tests for BankAccount
+│   └── test_transfer.py       # Unit tests for transfer logic
+│
 └── data/
-    └── accounts.pkl
+    └── accounts.pkl           # Serialized account data (auto-generated)
 ```
 
 ## Modules used
