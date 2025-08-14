@@ -96,9 +96,7 @@ bank-teller-system/
 │   └── persistence.py         # save_accounts, load_accounts
 │
 ├── tests/
-│   ├── test_transaction.py    # Unit tests for Transaction
-│   ├── test_bank_account.py   # Unit tests for BankAccount
-│   └── test_transfer.py       # Unit tests for transfer logic
+│   ├── test_bank_system.py    # Unit tests for Transaction
 │
 └── data/
     └── accounts.pkl           # Serialized account data (auto-generated)
