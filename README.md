@@ -81,7 +81,7 @@ python -m unittest test_bank_system.py
 ---
 
 ## Project Structure
-
+```
 bank-teller-system/
 │
 ├── README.md
@@ -101,6 +101,7 @@ bank-teller-system/
 │   └── test_bank_system.py
 └── data/
     └── accounts.pkl
+```
 
 ## Modules used
 
