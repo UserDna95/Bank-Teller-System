@@ -78,6 +78,19 @@ Run tests with:
 ```bash
 python -m unittest test_bank_system.py
 ```
+1) For a test run, download all the files under this repo
+2) On a Windows system, press the Windows button + R and type in "cmd" in the CLI
+3) Type cd "C:\Users\yourname\locations of where the folder is downloaded" (find the folder on your system, right click on properties, click on security tab at the top, and then copy and paste the Object name in quotation marks)
+4) Then type in python -m unittest test_bank_system.py to check if the tests have passed based on the file, which specifically looks to test the classes based on constraints/requirements of the simple system and edge cases
+You should get something like this:
+
+Ran 16 tests in 0.006s
+
+FAILED (failures=9, errors=2)
+
+5) This tells us some of the system needs more fine-tuning since there are 2 errors to fix
+6) If you want to play around with the program, then type in python bank_system.py
+7) This will open the system menu, which will accept any option between 1-4 to create a mock bank-teller system
 ---
 
 ## Project Structure
@@ -96,7 +109,7 @@ bank-teller-system/
 │   └── persistence.py         # save_accounts, load_accounts
 │
 ├── tests/
-│   ├── test_bank_system.py    # Unit tests for Transaction
+│   ├── test_bank_system.py    # Unit tests for Transaction, Bank Account, and use Edge Cases
 │
 └── data/
     └── accounts.pkl           # Serialized account data (auto-generated)
@@ -121,4 +134,4 @@ bank-teller-system/
 
 ## Acknowledgements 
 
-This project was built as a foundational exercise for an introductory Python programming course in object-oriented programming, input validation, and system design. It reflects a student's approach to modeling real-world banking operations in Python, with a lot of room for future enhancements.
+This project was developed as a foundational exercise for an introductory Python programming course, focusing on object-oriented programming, input validation, and system design. It reflects a student's approach to modeling real-world banking operations in Python, with substantial room for future enhancements.
