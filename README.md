@@ -80,17 +80,17 @@ python -m unittest test_bank_system.py
 ```
 1) For a test run, download all the files under this repo
 2) On a Windows system, press the Windows button + R and type in "cmd" in the CLI
-3) Type cd "C:\Users\yourname\locations of where the folder is downloaded" (find the folder on your system, right click on properties, click on security tab at the top, and then copy and paste the Object name in quotation marks)
-4) Then type in python -m unittest test_bank_system.py to check if the tests have passed based on the file, which specifically looks to test the classes based on constraints/requirements of the simple system and edge cases
-You should get something like this:
+3) Type cd "C:\Users\yourname\locations of where the folder is downloaded" (find the folder on your system, right click on properties, click on the security tab at the top, and then copy and paste the Object name in quotation marks)
+4) Then type in python -m unittest test_bank_system.py to check if the tests have passed based on the file, which specifically looks to test the classes based on constraints/requirements of the simple system and edge cases.
+5) You should get something like this:
 
 Ran 16 tests in 0.006s
 
 FAILED (failures=9, errors=2)
 
-5) This tells us some of the system needs more fine-tuning since there are 2 errors to fix
-6) If you want to play around with the program, then type in python bank_system.py
-7) This will open the system menu, which will accept any option between 1-4 to create a mock bank-teller system
+6) This tells us some of the system needs more fine-tuning since there are 2 errors to fix
+7) If you want to play around with the program, then type in python bank_system.py
+8) This will open the system menu, which will accept any option between 1-4 to create a mock bank-teller system
 ---
 
 ## Project Structure
